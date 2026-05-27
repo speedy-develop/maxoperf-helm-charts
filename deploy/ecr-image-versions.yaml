@@ -1,0 +1,46 @@
+schemaVersion: 1
+registry: 565090303272.dkr.ecr.us-east-1.amazonaws.com
+region: us-east-1
+publishedGitSha: 41ee36a3d0ab3c28e59a7c6d71c491ceb2e2279b
+publishedRunNumber: 159
+publishedAt: 2026-05-27T20:21:05.335Z
+components:
+  api:
+    ecrRepository: maxoperf/api
+    tag: 159-41ee36a
+  web:
+    ecrRepository: maxoperf/web
+    tag: 159-41ee36a
+  marketing-site:
+    ecrRepository: maxoperf/marketing-site
+    tag: 159-41ee36a
+  runner-provisioning:
+    ecrRepository: maxoperf/runner-provisioning
+    tag: 159-41ee36a
+  outpost-agent:
+    ecrRepository: maxoperf/outpost-agent
+    tag: 159-41ee36a
+  results-ingest:
+    ecrRepository: maxoperf/results-ingest
+    tag: 159-41ee36a
+  results-processor:
+    ecrRepository: maxoperf/results-processor
+    tag: 159-41ee36a
+  orchestration:
+    ecrRepository: maxoperf/orchestration
+    tag: 159-41ee36a
+  run-orchestrator-worker:
+    ecrRepository: maxoperf/run-orchestrator-worker
+    tag: 159-41ee36a
+  temporal-worker:
+    ecrRepository: maxoperf/temporal-worker
+    tag: 159-41ee36a
+  mail-delivery:
+    ecrRepository: maxoperf/mail-delivery
+    tag: 159-41ee36a
+  taurus-runner:
+    ecrRepository: maxoperf/runner
+    tag: 159-41ee36a
+  keycloak:
+    ecrRepository: maxoperf/keycloak
+    tag: 159-41ee36a

@@ -1,0 +1,51 @@
+name: Validate ECR manifests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required manifest files exist
+        run: |
+          set -euo pipefail
+          for f in \
+            deploy/ecr-image-versions.yaml \
+            deploy/helm/maxoperf/values-staging-images.yaml \
+            deploy/helm/maxoperf/values-prod-images.yaml
+          do
+            test -f "$f" || { echo "::error::Missing $f"; exit 1; }
+          done
+
+      - name: Validate ecr-image-versions schema
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import sys
+          from pathlib import Path
+
+          try:
+              import yaml
+          except ImportError:
+              import subprocess
+              subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-q', 'pyyaml'])
+              import yaml
+
+          doc = yaml.safe_load(Path('deploy/ecr-image-versions.yaml').read_text())
+          assert doc.get('schemaVersion') == 1, 'schemaVersion must be 1'
+          assert doc.get('registry'), 'registry required'
+          assert doc.get('components'), 'components required'
+          for name, block in doc['components'].items():
+              assert block.get('ecrRepository'), f'{name}: ecrRepository required'
+              assert block.get('tag'), f'{name}: tag required'
+          print('ecr-image-versions.yaml OK')
+          PY
