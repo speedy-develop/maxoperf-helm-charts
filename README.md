@@ -31,7 +31,13 @@ Use **Deploy EKS with Argo CD** in either repository:
 
 ### Secrets
 
-`maxoperf` CI needs **`HELM_CHARTS_REPO_TOKEN`** (classic PAT or fine-grained token with `contents: write` on this repo) to push manifest commits. If unset, the workflow falls back to `GITHUB_TOKEN` (works when both repos share the same org and token permissions allow cross-repo writes).
+`maxoperf` CI **must** have **`HELM_CHARTS_REPO_TOKEN`** — the default `GITHUB_TOKEN` in Actions is scoped only to `maxoperf` and cannot push here. One-time setup from a machine with `gh auth login`:
+
+```bash
+bash scripts/github-setup-helm-charts-publish-token.sh
+```
+
+(in the **maxoperf** repo). That stores a PAT with `contents: write` on this repo and triggers **`repository_dispatch`**; this repo’s workflow commits using its own `GITHUB_TOKEN`.
 
 ## Related
 
