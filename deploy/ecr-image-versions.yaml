@@ -1,46 +1,50 @@
 schemaVersion: 1
 registry: 565090303272.dkr.ecr.us-east-1.amazonaws.com
 region: us-east-1
-publishedGitSha: 2113ff336e61cbf2f5f2e1fe13758f299030133b
-publishedRunNumber: 185
-publishedAt: 2026-05-29T13:57:39.108Z
+runnerPublic:
+  registryAlias: e1d5p6t0
+  repository: runner
+  uri: public.ecr.aws/e1d5p6t0/runner
+publishedGitSha: 88a41ac34e1142ce9d1620e32728c20b84b04220
+publishedRunNumber: 225
+publishedAt: 2026-06-02T07:20:16.410Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   web:
     ecrRepository: maxoperf/web
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 185-2113ff3
+    tag: 225-88a41ac
   keycloak:
     ecrRepository: maxoperf/keycloak
-    tag: 185-2113ff3
+    tag: 225-88a41ac
