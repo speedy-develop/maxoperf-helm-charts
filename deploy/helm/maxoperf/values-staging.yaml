@@ -23,6 +23,7 @@ global:
           version: latest
           active: true
           source: helm:deploy/helm/maxoperf/values-staging.yaml
+          digestException: staging ECS runner image follows the mutable public ECR latest tag until digest-pinned runner publishing lands for this environment.
           artifact:
             kind: aws_ecs_image
             image:
