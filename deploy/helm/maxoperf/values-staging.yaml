@@ -23,7 +23,6 @@ global:
           version: latest
           active: true
           source: helm:deploy/helm/maxoperf/values-staging.yaml
-          digestException: staging ECS runner image follows the mutable public ECR latest tag until digest-pinned runner publishing lands for this environment.
           artifact:
             kind: aws_ecs_image
             image:
@@ -42,11 +41,3 @@ edge:
     AWS_ECS_SECURITY_GROUP_ID: sg-0f1ac7d1a0f46be4a
     AWS_ECS_TASK_EXECUTION_ROLE_ARN: arn:aws:iam::565090303272:role/maxoperf-staging-ecs-task-execution
     AWS_ECS_TASK_ROLE_ARN: arn:aws:iam::565090303272:role/maxoperf-staging-ecs-runner-task
-runner-provisioning:
-  env:
-    RUNNER_PROVISIONING_AWS_REGION: us-east-1
-    RUNNER_PROVISIONING_ECS_CLUSTER_ARN: arn:aws:ecs:us-east-1:565090303272:cluster/maxoperf-staging-runners
-    RUNNER_PROVISIONING_ECS_SUBNET_IDS: subnet-06037976d08cc05d1,subnet-09c0aa6079e15fdab,subnet-0b3214d952365289b,subnet-0c8f88b904d8d6c09,subnet-0f822705e4c99af04
-    RUNNER_PROVISIONING_ECS_SECURITY_GROUP_IDS: sg-0f1ac7d1a0f46be4a
-    RUNNER_PROVISIONING_ECS_TASK_EXECUTION_ROLE_ARN: arn:aws:iam::565090303272:role/maxoperf-staging-ecs-task-execution
-    RUNNER_PROVISIONING_ECS_TASK_ROLE_ARN: arn:aws:iam::565090303272:role/maxoperf-staging-ecs-runner-task
