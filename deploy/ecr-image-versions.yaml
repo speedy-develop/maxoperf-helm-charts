@@ -6,53 +6,46 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: bfdc2e4eccebc32720a863250fcfb2cfa1b02a25
-publishedRunNumber: 340
-publishedAt: 2026-06-06T15:53:27.697Z
+publishedGitSha: 1c9192d6a5a3015fb067e435e87a483515dbfc61
+publishedRunNumber: 328
+publishedAt: 2026-06-06T16:12:25.460Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 340-bfdc2e4
+    tag: 334-35c0e0a
   web:
     ecrRepository: maxoperf/web
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 340-bfdc2e4
+    tag: 334-35c0e0a
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 340-bfdc2e4
+    tag: 328-1c9192d
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 340-bfdc2e4
+    tag: 256-87dcb28
   keycloak:
     ecrRepository: maxoperf/keycloak
-    tag: 340-bfdc2e4
-lambdaWriters:
-  resultsLambdaWriter:
-    function: maxoperf-staging-results-lambda-writer
-    deployTag: 340-bfdc2e4
-    awsVersion: $LATEST
-    codeSha256: Nae3+hROnGYwQaDDcRjFBD9cHd2IvBf+/baz8lEz6ww=
-    publishedAt: 2026-06-06T15:54:02.486Z
+    tag: 328-1c9192d
