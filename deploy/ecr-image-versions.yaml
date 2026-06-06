@@ -6,46 +6,54 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: 1c9192d6a5a3015fb067e435e87a483515dbfc61
-publishedRunNumber: 328
-publishedAt: 2026-06-06T17:34:19.738Z
+publishedGitSha: 4f992fa6fefd9e02ace86f24359341927b654cd2
+publishedRunNumber: 352
+publishedAt: 2026-06-06T18:00:22.589Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 334-35c0e0a
+    tag: 352-4f992fa
   web:
     ecrRepository: maxoperf/web
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 334-35c0e0a
+    tag: 352-4f992fa
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 328-1c9192d
+    tag: 352-4f992fa
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 256-87dcb28
+    tag: 352-4f992fa
   keycloak:
     ecrRepository: maxoperf/keycloak
-    tag: 328-1c9192d
+    tag: 352-4f992fa
+lambdaWriters:
+  resultsLambdaWriter:
+    function: maxoperf-staging-results-lambda-writer
+    deployTag: 352-4f992fa
+    awsVersion: None
+    codeSha256: x4c0JJ7qti75EmBt5Wf0VXVBXqd5zdXE5U3icPq9ZoM=
+    ciRunId: 27069136373
+    publishedAt: 2026-06-06T18:00:40.161Z
