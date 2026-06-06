@@ -6,9 +6,9 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: 697d08c081db5864b86f08a36ccd6943bcc0274c
-publishedRunNumber: 360
-publishedAt: 2026-06-06T19:15:31.543Z
+publishedGitSha: 9a1f6690e8d03570ab4e3c080c05d3ef1398410c
+publishedRunNumber: 363
+publishedAt: 2026-06-06T19:33:17.954Z
 components:
   api:
     ecrRepository: maxoperf/api
@@ -21,13 +21,13 @@ components:
     tag: 256-87dcb28
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 360-697d08c
+    tag: 363-9a1f669
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
     tag: 256-87dcb28
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 360-697d08c
+    tag: 363-9a1f669
   results-processor:
     ecrRepository: maxoperf/results-processor
     tag: 256-87dcb28
@@ -52,7 +52,7 @@ components:
 lambdaWriters:
   resultsLambdaWriter:
     function: maxoperf-staging-results-lambda-writer
-    deployTag: 360-697d08c
-    codeSha256: nsU6EBBGXcbls4VnWREXjBc1rpmzMPsPYWwm0c4gb4I=
-    ciRunId: 27071177877
-    publishedAt: 2026-06-06T19:15:46.916Z
+    deployTag: 363-9a1f669
+    codeSha256: R4AfkjEyb/HldyOgMPWueTjtYCh8JUf+WU9gZoG2jb0=
+    ciRunId: 27071630793
+    publishedAt: 2026-06-06T19:33:32.819Z
