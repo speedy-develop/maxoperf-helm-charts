@@ -6,7 +6,7 @@
 api:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/api
-    tag: 379-48801c2
+    tag: 397-a4c01b9
 web:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/web
@@ -14,11 +14,11 @@ web:
 marketing-site:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/marketing-site
-    tag: 371-564eff7
+    tag: 375-04c1930
 runner-provisioning:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/runner-provisioning
-    tag: 375-04c1930
+    tag: 397-a4c01b9
 outpost-agent:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/outpost-agent
@@ -26,7 +26,7 @@ outpost-agent:
 results-ingest:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/results-ingest
-    tag: 375-04c1930
+    tag: 397-a4c01b9
 results-processor:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/results-processor
@@ -34,11 +34,11 @@ results-processor:
 orchestration:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/orchestration
-    tag: 375-04c1930
+    tag: 397-a4c01b9
 run-orchestrator-worker:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/run-orchestrator-worker
-    tag: 375-04c1930
+    tag: 397-a4c01b9
 temporal-worker:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/temporal-worker
@@ -46,12 +46,12 @@ temporal-worker:
 mail-delivery:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/mail-delivery
-    tag: 371-564eff7
+    tag: 397-a4c01b9
 infra:
   keycloak:
     image:
       repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/keycloak
-      tag: 371-564eff7
+      tag: 375-04c1930
 global:
   MaxoPerf:
     runnerTaurusImage:
