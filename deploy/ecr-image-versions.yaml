@@ -6,49 +6,49 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: 70529654bf56c7dc6e0baf85453640060b0db097
-publishedRunNumber: 393
-publishedAt: 2026-06-08T09:16:27.053Z
+publishedGitSha: 04c193067e1c5943b85a6e7784a5fd88215979a5
+publishedRunNumber: 375
+publishedAt: 2026-06-08T19:21:06.705Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 393-7052965
+    tag: 379-48801c2
   web:
     ecrRepository: maxoperf/web
-    tag: 393-7052965
+    tag: 375-04c1930
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 393-7052965
+    tag: 371-564eff7
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 393-7052965
+    tag: 375-04c1930
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 393-7052965
+    tag: 375-04c1930
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 393-7052965
+    tag: 375-04c1930
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 393-7052965
+    tag: 375-04c1930
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 393-7052965
+    tag: 375-04c1930
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 393-7052965
+    tag: 375-04c1930
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 393-7052965
+    tag: 375-04c1930
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 393-7052965
+    tag: 371-564eff7
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 393-7052965
+    tag: 375-04c1930
   keycloak:
     ecrRepository: maxoperf/keycloak
-    tag: 393-7052965
+    tag: 371-564eff7
 lambdaWriters:
   resultsLambdaWriter:
     function: maxoperf-staging-results-lambda-writer
