@@ -8,11 +8,11 @@ runnerPublic:
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
 publishedGitSha: ee672e856b6b587db15f8585449eba2e41cc5c48
 publishedRunNumber: 410
-publishedAt: 2026-06-11T08:34:09.490Z
+publishedAt: 2026-06-11T08:56:17.877Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 404-3019b30
+    tag: 427-bd8add1
   web:
     ecrRepository: maxoperf/web
     tag: 410-ee672e8
@@ -21,7 +21,7 @@ components:
     tag: 403-1e4207f
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 426-de46d50
+    tag: 406-cf453af
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
     tag: 403-1e4207f
@@ -36,7 +36,7 @@ components:
     tag: 403-1e4207f
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 403-1e4207f
+    tag: 427-bd8add1
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
     tag: 403-1e4207f
