@@ -6,7 +6,7 @@
 api:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/api
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 web:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/web
@@ -14,44 +14,44 @@ web:
 marketing-site:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/marketing-site
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 runner-provisioning:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/runner-provisioning
-    tag: 409-e0ad56f
+    tag: 434-72f35b8
 outpost-agent:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/outpost-agent
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 results-ingest:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/results-ingest
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 results-processor:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/results-processor
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 orchestration:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/orchestration
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 run-orchestrator-worker:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/run-orchestrator-worker
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 temporal-worker:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/temporal-worker
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 mail-delivery:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/mail-delivery
-    tag: 409-e0ad56f
+    tag: 410-ee672e8
 infra:
   keycloak:
     image:
       repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/keycloak
-      tag: 409-e0ad56f
+      tag: 410-ee672e8
 global:
   MaxoPerf:
     runnerTaurusImage:
