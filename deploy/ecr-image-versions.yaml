@@ -8,11 +8,11 @@ runnerPublic:
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
 publishedGitSha: 49d24579d7f45f746a54e4938c05a06c98af802a
 publishedRunNumber: 469
-publishedAt: 2026-06-12T12:10:41.426Z
+publishedAt: 2026-06-12T12:22:32.244Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 470-9bc8533
+    tag: 473-c2c5b65
   web:
     ecrRepository: maxoperf/web
     tag: 470-9bc8533
