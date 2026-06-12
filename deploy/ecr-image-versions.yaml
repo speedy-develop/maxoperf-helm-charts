@@ -8,7 +8,7 @@ runnerPublic:
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
 publishedGitSha: ddb5649e03c2eb9e0af437e8c655961761effad8
 publishedRunNumber: 430
-publishedAt: 2026-06-12T01:41:32.995Z
+publishedAt: 2026-06-12T02:08:06.911Z
 components:
   api:
     ecrRepository: maxoperf/api
@@ -21,7 +21,7 @@ components:
     tag: 430-ddb5649
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 452-bdf0656
+    tag: 453-bf1248d
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
     tag: 430-ddb5649

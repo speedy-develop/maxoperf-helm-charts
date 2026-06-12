@@ -18,7 +18,7 @@ marketing-site:
 runner-provisioning:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/runner-provisioning
-    tag: 452-bdf0656
+    tag: 453-bf1248d
 outpost-agent:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/outpost-agent
