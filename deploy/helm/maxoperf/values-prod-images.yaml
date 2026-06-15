@@ -2,62 +2,62 @@
 # Source: deploy/ecr-image-versions.yaml
 # imageEnv: production
 # publishedGitSha: 1bb1cbf9e814b9f968d0bd1ec6ac88669f7b3dba
-# publishedRunNumber: 500
+# publishedRunNumber: 501
 api:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/api
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 web:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/web
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 marketing-site:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/marketing-site
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 runner-provisioning:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/runner-provisioning
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 outpost-agent:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/outpost-agent
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 results-ingest:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/results-ingest
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 results-processor:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/results-processor
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 orchestration:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/orchestration
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 run-orchestrator-worker:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/run-orchestrator-worker
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 temporal-worker:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/temporal-worker
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 mail-delivery:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/mail-delivery
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 infra:
   keycloak:
     image:
       repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/keycloak
-      tag: 500-1bb1cbf
+      tag: 501-1bb1cbf
 demo-shop:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/demo-shop
-    tag: 500-1bb1cbf
+    tag: 501-1bb1cbf
 global:
   MaxoPerf:
     runnerTaurusImage:
       repository: public.ecr.aws/e1d5p6t0/runner
-      tag: 500-1bb1cbf
+      tag: 501-1bb1cbf
