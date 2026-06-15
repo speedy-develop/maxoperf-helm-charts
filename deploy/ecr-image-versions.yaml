@@ -6,56 +6,56 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: 36f2c4ee4ee07533fe135170db08ab7919428a35
-publishedRunNumber: 477
-publishedAt: 2026-06-15T01:32:52.355Z
+publishedGitSha: 1bb1cbf9e814b9f968d0bd1ec6ac88669f7b3dba
+publishedRunNumber: 500
+publishedAt: 2026-06-15T07:11:09.778Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 491-2898cbc
+    tag: 500-1bb1cbf
   web:
     ecrRepository: maxoperf/web
-    tag: 491-2898cbc
+    tag: 500-1bb1cbf
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 494-10ba302
+    tag: 500-1bb1cbf
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   keycloak:
     ecrRepository: maxoperf/keycloak
-    tag: 488-ec0d7ad
+    tag: 500-1bb1cbf
   demo-shop:
     ecrRepository: maxoperf/demo-shop
-    tag: 494-10ba302
+    tag: 500-1bb1cbf
 lambdaWriters:
   resultsLambdaWriter:
     function: maxoperf-staging-results-lambda-writer
-    deployTag: 488-ec0d7ad
-    codeSha256: u80UdSpXVohbocTPjP0yp4DGUwsb5+WX1q9Y2njPFmw=
-    ciRunId: 27487862314
-    publishedAt: 2026-06-14T04:41:09.428Z
+    deployTag: 500-1bb1cbf
+    codeSha256: 9oejDVj0oljz1OhN7dS9OdHZdhE2ku1tl6z8OFrnqzg=
+    ciRunId: 27528595088
+    publishedAt: 2026-06-15T07:11:24.483Z
