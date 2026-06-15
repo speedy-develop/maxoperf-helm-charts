@@ -6,9 +6,9 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: 432b2260ed4bf5b653f953b5bb03889d41a21483
-publishedRunNumber: 478
-publishedAt: 2026-06-14T13:12:17.444Z
+publishedGitSha: 36f2c4ee4ee07533fe135170db08ab7919428a35
+publishedRunNumber: 477
+publishedAt: 2026-06-15T01:32:52.355Z
 components:
   api:
     ecrRepository: maxoperf/api
@@ -21,7 +21,7 @@ components:
     tag: 488-ec0d7ad
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 491-2898cbc
+    tag: 494-10ba302
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
     tag: 488-ec0d7ad
@@ -49,6 +49,9 @@ components:
   keycloak:
     ecrRepository: maxoperf/keycloak
     tag: 488-ec0d7ad
+  demo-shop:
+    ecrRepository: maxoperf/demo-shop
+    tag: 494-10ba302
 lambdaWriters:
   resultsLambdaWriter:
     function: maxoperf-staging-results-lambda-writer
