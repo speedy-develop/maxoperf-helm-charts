@@ -6,11 +6,11 @@
 api:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/api
-    tag: 515-94e160c
+    tag: 520-db33501
 web:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/web
-    tag: 515-94e160c
+    tag: 520-db33501
 marketing-site:
   image:
     repository: 565090303272.dkr.ecr.us-east-1.amazonaws.com/maxoperf/marketing-site

@@ -8,14 +8,14 @@ runnerPublic:
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
 publishedGitSha: d6e827ec358d2686784cb5370ee33fa4bb5e577d
 publishedRunNumber: 498
-publishedAt: 2026-06-15T18:13:49.836Z
+publishedAt: 2026-06-15T19:39:35.737Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 515-94e160c
+    tag: 520-db33501
   web:
     ecrRepository: maxoperf/web
-    tag: 515-94e160c
+    tag: 520-db33501
   marketing-site:
     ecrRepository: maxoperf/marketing-site
     tag: 501-1bb1cbf
