@@ -6,56 +6,59 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: e210d4a0a30a6724b5751a65a3c85dfd8fd0653f
-publishedRunNumber: 530
-publishedAt: 2026-06-16T09:55:26.861Z
+publishedGitSha: 29a26f8beb684b6a8c48731b52fd56e36917f958
+publishedRunNumber: 537
+publishedAt: 2026-06-16T22:56:54.749Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 530-e210d4a
+    tag: 537-29a26f8
   web:
     ecrRepository: maxoperf/web
-    tag: 530-e210d4a
+    tag: 537-29a26f8
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 530-e210d4a
+    tag: 537-29a26f8
+  api-reference:
+    ecrRepository: maxoperf/api-reference
+    tag: 537-29a26f8
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 530-e210d4a
+    tag: 537-29a26f8
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 501-1bb1cbf
+    tag: 537-29a26f8
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 530-e210d4a
+    tag: 537-29a26f8
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 501-1bb1cbf
+    tag: 537-29a26f8
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 530-e210d4a
+    tag: 537-29a26f8
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 530-e210d4a
+    tag: 537-29a26f8
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 501-1bb1cbf
+    tag: 537-29a26f8
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 530-e210d4a
+    tag: 537-29a26f8
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 501-1bb1cbf
+    tag: 537-29a26f8
   keycloak:
     ecrRepository: maxoperf/keycloak
-    tag: 501-1bb1cbf
+    tag: 537-29a26f8
   demo-shop:
     ecrRepository: maxoperf/demo-shop
-    tag: 501-1bb1cbf
+    tag: 537-29a26f8
 lambdaWriters:
   resultsLambdaWriter:
     function: maxoperf-staging-results-lambda-writer
-    deployTag: 501-1bb1cbf
-    codeSha256: XBsi9v/TLBEyFrwe/sZmVdn9UR7CSYB4ob2YH98wdJ8=
-    ciRunId: 27530111221
-    publishedAt: 2026-06-15T07:42:41.711Z
+    deployTag: 537-29a26f8
+    codeSha256: 8Zqi5vDu/j//Gw/dkFa66XkVfkB7mHJeZtvDqGNZXXY=
+    ciRunId: 27652066477
+    publishedAt: 2026-06-16T22:57:09.506Z
