@@ -8,7 +8,7 @@ runnerPublic:
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
 publishedGitSha: c2c314ee3adbd74f73714a0d5ee2ed6c649192bf
 publishedRunNumber: 516
-publishedAt: 2026-06-16T23:25:43.760Z
+publishedAt: 2026-06-17T00:05:19.997Z
 components:
   api:
     ecrRepository: maxoperf/api
