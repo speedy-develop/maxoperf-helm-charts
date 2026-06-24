@@ -6,59 +6,59 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: c2c314ee3adbd74f73714a0d5ee2ed6c649192bf
-publishedRunNumber: 516
-publishedAt: 2026-06-17T00:05:19.997Z
+publishedGitSha: fdd74088fb4de4f30b7a32b60b862c0b7221b7e4
+publishedRunNumber: 556
+publishedAt: 2026-06-24T20:05:12.299Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   web:
     ecrRepository: maxoperf/web
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   api-reference:
     ecrRepository: maxoperf/api-reference
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 538-e78bf0c
+    tag: 556-fdd7408
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   keycloak:
     ecrRepository: maxoperf/keycloak
-    tag: 537-29a26f8
+    tag: 556-fdd7408
   demo-shop:
     ecrRepository: maxoperf/demo-shop
-    tag: 537-29a26f8
+    tag: 556-fdd7408
 lambdaWriters:
   resultsLambdaWriter:
     function: maxoperf-staging-results-lambda-writer
-    deployTag: 537-29a26f8
-    codeSha256: 8Zqi5vDu/j//Gw/dkFa66XkVfkB7mHJeZtvDqGNZXXY=
-    ciRunId: 27652066477
-    publishedAt: 2026-06-16T22:57:09.506Z
+    deployTag: 556-fdd7408
+    codeSha256: lWPuJzb6cIFBNo2gTyOwHmRTdZDNkCAG7h8kkRobYH8=
+    ciRunId: 28124138613
+    publishedAt: 2026-06-24T20:05:27.467Z
