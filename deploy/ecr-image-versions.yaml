@@ -6,9 +6,9 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: fdd74088fb4de4f30b7a32b60b862c0b7221b7e4
-publishedRunNumber: 556
-publishedAt: 2026-06-24T20:05:12.299Z
+publishedGitSha: 98e590cfe949cdc1c8c34d1a061ef95faa966606
+publishedRunNumber: 554
+publishedAt: 2026-06-24T20:19:17.554Z
 components:
   api:
     ecrRepository: maxoperf/api
