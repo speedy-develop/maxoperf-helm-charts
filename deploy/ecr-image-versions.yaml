@@ -6,59 +6,59 @@ runnerPublic:
   repository: runner
   uri: public.ecr.aws/e1d5p6t0/runner
   digest: sha256:12e430b202f5efabfe1d225ad7c8e224e320dd055a70afd9a9dd4e015b1113ab
-publishedGitSha: 98e590cfe949cdc1c8c34d1a061ef95faa966606
-publishedRunNumber: 554
-publishedAt: 2026-06-24T22:26:38.997Z
+publishedGitSha: 75b3d62b49c24d55b85aeb11d2ec6f38a2bb21a0
+publishedRunNumber: 544
+publishedAt: 2026-06-25T22:19:11.092Z
 components:
   api:
     ecrRepository: maxoperf/api
-    tag: 558-80c0721
+    tag: 568-405797a
   web:
     ecrRepository: maxoperf/web
-    tag: 556-fdd7408
+    tag: 568-405797a
   marketing-site:
     ecrRepository: maxoperf/marketing-site
-    tag: 556-fdd7408
+    tag: 568-405797a
   api-reference:
     ecrRepository: maxoperf/api-reference
     tag: 556-fdd7408
   runner-provisioning:
     ecrRepository: maxoperf/runner-provisioning
-    tag: 558-80c0721
+    tag: 568-405797a
   outpost-agent:
     ecrRepository: maxoperf/outpost-agent
-    tag: 556-fdd7408
+    tag: 568-405797a
   results-ingest:
     ecrRepository: maxoperf/results-ingest
-    tag: 556-fdd7408
+    tag: 568-405797a
   results-processor:
     ecrRepository: maxoperf/results-processor
-    tag: 556-fdd7408
+    tag: 568-405797a
   orchestration:
     ecrRepository: maxoperf/orchestration
-    tag: 556-fdd7408
+    tag: 568-405797a
   run-orchestrator-worker:
     ecrRepository: maxoperf/run-orchestrator-worker
-    tag: 556-fdd7408
+    tag: 568-405797a
   temporal-worker:
     ecrRepository: maxoperf/temporal-worker
-    tag: 556-fdd7408
+    tag: 568-405797a
   mail-delivery:
     ecrRepository: maxoperf/mail-delivery
-    tag: 556-fdd7408
+    tag: 568-405797a
   taurus-runner:
     ecrRepository: maxoperf/runner
-    tag: 556-fdd7408
+    tag: 568-405797a
   keycloak:
     ecrRepository: maxoperf/keycloak
     tag: 556-fdd7408
   demo-shop:
     ecrRepository: maxoperf/demo-shop
-    tag: 556-fdd7408
+    tag: 568-405797a
 lambdaWriters:
   resultsLambdaWriter:
     function: maxoperf-staging-results-lambda-writer
-    deployTag: 556-fdd7408
-    codeSha256: lWPuJzb6cIFBNo2gTyOwHmRTdZDNkCAG7h8kkRobYH8=
-    ciRunId: 28124138613
-    publishedAt: 2026-06-24T20:05:27.467Z
+    deployTag: 568-405797a
+    codeSha256: lg9p4ssREPSPX7AjCLjykwz0/hOfLK1cjkXdkGlng8Q=
+    ciRunId: 28202824510
+    publishedAt: 2026-06-25T22:19:25.404Z
